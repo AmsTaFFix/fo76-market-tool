@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="transform" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="fo76-market-tool" />
+    <working_directory value="$PROJECT_DIR$" />
+    <parameters value="transform &quot;C:\Sandbox\amsta\Steam\drive\C\Program Files (x86)\Steam\steamapps\common\Fallout76\Data\itemsmod.ini&quot; &quot;C:\Users\amsta\GolandProjects\github\AmsTaFFix\fo76-market-tool\result.json&quot;" />
+    <EXTENSION ID="net.ashald.envfile">
+      <option name="IS_ENABLED" value="false" />
+      <option name="IS_SUBST" value="false" />
+      <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+      <option name="IS_IGNORE_MISSING_FILES" value="false" />
+      <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+      <ENTRIES>
+        <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+      </ENTRIES>
+    </EXTENSION>
+    <kind value="PACKAGE" />
+    <package value="github.com/AmsTaFFix/fo76-market-tool/cmd/market-tool" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/cmd/market-tool/main.go" />
+    <method v="2" />
+  </configuration>
+</component>
