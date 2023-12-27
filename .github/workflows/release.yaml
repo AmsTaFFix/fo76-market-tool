@@ -1,3 +1,4 @@
+name: Releaser
 on:
   release:
     types: [created]
