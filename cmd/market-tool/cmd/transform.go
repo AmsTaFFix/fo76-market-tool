@@ -11,10 +11,11 @@ import (
 
 // transformCmd represents the transform command
 var transformCmd = &cobra.Command{
-	Use:   "transform",
-	Short: "transforms current json output to feed it too fo76market web-site to make it work again",
-	RunE:  transformFunc,
-	Args:  cobra.ExactArgs(2),
+	Use:     "transform source_file dest_file",
+	Short:   "Transforms current json output from fo76 plugin to feed it too fo76market web-site to make it work again",
+	Example: `transform "C:\Program Files (x86)\Steam\steamapps\common\Fallout76\Data\itemsmod.ini" "C:\result.json"`,
+	RunE:    transformFunc,
+	Args:    cobra.ExactArgs(2),
 }
 
 func init() {
